@@ -1,0 +1,26 @@
+[Unit]
+Description=DIVIT's distributed currency daemon
+After=network.target
+
+[Service]
+User=Divitae
+Group=Divitae
+
+Type=forking
+PIDFile=/var/lib/Divitaed/Divitaed.pid
+
+ExecStart=/usr/bin/Divitaed -daemon -pid=/var/lib/Divitaed/Divitaed.pid \
+          -conf=/etc/Divitae/Divitae.conf -datadir=/var/lib/Divitaed
+
+ExecStop=-/usr/bin/Divitae-cli -conf=/etc/Divitae/Divitae.conf \
+         -datadir=/var/lib/Divitaed stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

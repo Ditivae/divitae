@@ -1,0 +1,29 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/Divitae_bg.qm</file>
+        <file alias="ca">locale/Divitae_ca.qm</file>
+        <file alias="cs">locale/Divitae_cs.qm</file>
+        <file alias="da">locale/Divitae_da.qm</file>
+        <file alias="de">locale/Divitae_de.qm</file>
+        <file alias="en">locale/Divitae_en.qm</file>
+        <file alias="en_US">locale/Divitae_en_US.qm</file>
+        <file alias="es">locale/Divitae_es.qm</file>
+        <file alias="fi">locale/Divitae_fi.qm</file>
+        <file alias="fr_FR">locale/Divitae_fr_FR.qm</file>
+        <file alias="it">locale/Divitae_it.qm</file>
+        <file alias="ja">locale/Divitae_ja.qm</file>
+        <file alias="ko_KR">locale/Divitae_ko_KR.qm</file>
+        <file alias="nl">locale/Divitae_nl.qm</file>
+        <file alias="pl">locale/Divitae_pl.qm</file>
+        <file alias="pt">locale/Divitae_pt.qm</file>
+        <file alias="pt_BR">locale/Divitae_pt_BR.qm</file>
+        <file alias="ro_RO">locale/Divitae_ro_RO.qm</file>
+        <file alias="ru">locale/Divitae_ru.qm</file>
+        <file alias="sk">locale/Divitae_sk.qm</file>
+        <file alias="sv">locale/Divitae_sv.qm</file>
+        <file alias="tr">locale/Divitae_tr.qm</file>
+        <file alias="uk">locale/Divitae_uk.qm</file>
+        <file alias="zh_CN">locale/Divitae_zh_CN.qm</file>
+        <file alias="zh_TW">locale/Divitae_zh_TW.qm</file>
+    </qresource>
+</RCC>
